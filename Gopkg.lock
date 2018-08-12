@@ -94,14 +94,6 @@
   version = "v0.0.3"
 
 [[projects]]
-  digest = "1:40e195917a951a8bf867cd05de2a46aaf1806c50cf92eebf4c16f78cd196f747"
-  name = "github.com/pkg/errors"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "645ef00459ed84a119197bfb8d8205042c6df63d"
-  version = "v0.8.0"
-
-[[projects]]
   digest = "1:274f67cb6fed9588ea2521ecdac05a6d62a8c51c074c1fccc6a49a40ba80e925"
   name = "github.com/satori/go.uuid"
   packages = ["."]
@@ -110,33 +102,12 @@
   version = "v1.2.0"
 
 [[projects]]
-  digest = "1:de1224a352e5baa94c3ba798db2394a046b9385b2b4d6d5e6086e8f62ecc91ef"
-  name = "github.com/sudo-suhas/symcrypto"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "e3c0524c89f080365222b819beb3f97b46fdca3c"
-  version = "v1.0.0"
-
-[[projects]]
   digest = "1:03aa6e485e528acb119fb32901cf99582c380225fc7d5a02758e08b180cb56c3"
   name = "github.com/ugorji/go"
   packages = ["codec"]
   pruneopts = "UT"
   revision = "b4c50a2b199d93b13dc15e78929cfb23bfdf21ab"
   version = "v1.1.1"
-
-[[projects]]
-  branch = "master"
-  digest = "1:659ba9cdd7d5b818ff2454caa926f65ad1fedcc7e2f40cfbe374386417e840fe"
-  name = "golang.org/x/crypto"
-  packages = [
-    "internal/subtle",
-    "nacl/secretbox",
-    "poly1305",
-    "salsa20/salsa",
-  ]
-  pruneopts = "UT"
-  revision = "de0752318171da717af4ce24d0a2e8626afaeb11"
 
 [[projects]]
   branch = "master"
@@ -194,7 +165,6 @@
     "github.com/dghubble/oauth1",
     "github.com/gin-gonic/gin",
     "github.com/satori/go.uuid",
-    "github.com/sudo-suhas/symcrypto",
     "gopkg.in/appleboy/gin-jwt.v2",
   ]
   solver-name = "gps-cdcl"
